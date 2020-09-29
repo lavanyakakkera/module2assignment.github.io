@@ -3,49 +3,68 @@
   box-sizing: border-box;
 }
 
-.main{
-  background-color: lightgrey;
-  width: 300px;
-  border: 15px solid green;
-  padding: 50px;
-  margin: 20px;
-   float:left;
-}
 
-.header {
-  background-color: #9933cc;
-  color: #ffffff;
+.header { 
   text-align: center;
+  font-family: monospace;
 }
 
 .column {
   width: 25%;
-  padding: 10px;
-  background-color: lightgrey;
-  border: 5px solid black;
+  padding-left: 10px;
+  background-color: grey;
+  border: 2px solid black;
   margin: 10px;
   float: left;
+  font-family: monospace;
 
 }
 
-.row{
-	width:30%;
-	background-color: red;
-border: 5px solid red; 
-  border-right-style: hidden;
-    border-top-style: hidden;
 
+
+.col2{
+background-color: #C70039;
      text-align: center;
      clear: both;
+     font-family: monospace;
+     padding-bottom: 3px;  
 
+     
 }
 
-/* Clear floats after the columns */
-.row:after {
-  content: "";
-  display: table;
-  clear: both;
+.col3
+{
+  
+background-color: #DAF7A6;
+     text-align: center;
+     clear: both;
+     font-family: monospace;
+     
 }
+
+
+.col1{
+  background-color: #F08080; 
+  text-align: center;
+    clear: both;
+     font-family: monospace;
+      
+}
+p{
+  font-weight: bold;
+  width: 30%;
+  display: grid;
+  margin: 2px;
+  margin-left: 176px;
+  border:1.5px solid black;
+  border-top: none;
+  border-right: none;
+  margin-top:unset; 
+
+}
+}
+
+
 
 /* On screens that are 992px wide or less, go from four columns to two columns */
 @media screen and (min-width: 992px) {
